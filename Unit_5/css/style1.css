@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+.main-head .logo-wrapper{
+	border:none;
+	margin-top: 0;
+	padding-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    }
+
+.main-menu{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: auto;
+    margin-right: auto;
+    width: 20%;}
+
+    .main-menu-button a{
+      float: center;
+      text-align: center;
+      padding: 10px 100px;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 200}
+      .main-menu-button a:hover{
+      	color: black;}
+
+
+
+
+.main-body
+
+#featured-image-warpper{
+
+}
+
+#container {
+
+}
+#title1 {
+	font-family: 'Merriweather', serif;
+	font-weight: ;
+	font-size: ;
+}
+
+#name {
+	font-family: 'Merriweather', serif;
+}
+
+#Job{
+
+}

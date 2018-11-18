@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+body  {
+	background-color: dimgrey;
+	font-family: 'Share Tech Mono', monospace;
+	background-image: url("../images/SelfBranding.png");
+	background-size: cover;
+	background-width: 100%; 
+	margin-right: 10px;
+	padding-right: 5px;
+
+}
+
+.default{
+	color: white;
+	text-align: left;
+}
+#menu{
+	color: white;
+	text-align: right;
+	margin-left: 10px;
+	padding-left: 5px;
+	font-size: 15px;
+	font: 'Share Tech Mono', monospace;
+	margin-top: 15px;
+}
+
+h1{ 
+	color: white;
+	font-family: 'Cairo', sans-serif;
+	font-size: 50px;
+    line-height: 0.1px; 
+	font-weight: 600;
+} 
+
+h2{
+	color: white;
+	font-family: 'Cairo', sans-serif;
+	font-size: 14px;
+    line-height: 0.1px; 
+	font-style: italic;
+	font-weight: 200;
+	text-align: left;
+}
+
+p{
+	font-size: 15px;
+	font-weight: 300;
+}
+#sec1{
+	color: white;
+	font-size: 15px;
+	font-weight: 300;
+	width: 30%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer{
+	font-family: 'Cairo', sans-serif;
+	color:white;
+	font-size: 13px;
+	font-weight: 300;
+	bottom: 3;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+a:visited {
+	color: white;
+}
