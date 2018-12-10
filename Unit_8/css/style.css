@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+#topper{
+	padding:5px;
+	position: relative;
+}
+
+#logowrapper{
+	position: absolute;
+	display: inline-block;
+	padding:0.2em;
+}
+nav {
+	position: absolute;
+	padding-top: 2em;
+	right: 1em;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #282828;
+	display: inline-block;
+}
+
+nav a{
+  text-decoration: none;
+  color: #000000;
+  margin: 0 1.5em;
+  float: left;
+  
+}
+
+a:hover {
+    color: darkgrey;
+}
+
+.main-menu-button {
+	padding: 0.2em;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #topper{
+  	position: relative;
+  }
+
+  #logowrapper{
+  	float: none;
+  	position: absolute;
+  	left: 45%;
+	display: block;
+	padding-bottom: 1em;
+}
+
+  nav {
+  	position: absolute;
+  	padding: 5em 0;
+  	left: 30%;
+  	right: none;
+  	font-size: 1.2em;
+  	display: block;
+  }
+  
+  nav a {
+  	float: left;
+    display: block;
+    margin: 0 0.5em;
+  }
+}
+
+
+h1 {
+	display: block;
+	font-family: 'Titillium Web', sans-serif;
+	padding-top: 2em;
+	font-size: 1.8em;
+	font-weight:400;
+	color: #282828;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		padding-top: 5em;
+		font-size: 1.6em;
+	}
+}
+
+.box{
+	float: left;
+	width: 50%;
+	height: 17em;
+	position: relative;
+}
+
+#green{
+	background-color:#224a54;
+}
+#pink{
+	background-color:#d89d8f;
+}
+.jobtitle{
+	font-family: 'Titillium Web', sans-serif;
+	padding: 2.5em 0.5em;
+	font-size: 1.8em;
+	color: white;
+	font-weight:600;
+	text-align: center;
+}
+.seeworks{
+	position: absolute;
+	right: 0.5em;
+	bottom: 1em;
+	background-color: #282828;
+	font-family: 'Titillium Web', sans-serif;
+	font-style: italic;
+	font-size: 1.2em;
+	color: white;
+	font-weight:200;
+}
+
+@media only screen and (max-width: 600px) {
+	.box {
+	float: none;
+	height: 12em;
+	width: 100%;
+	}
+	
+	.jobtitle{
+	padding: 2em 0.5em;
+	font-size: 1.5em;
+	font-weight:400;
+	}
+
+	.seeworks{
+	position: absolute;
+	right: 0.5em;
+	bottom: 1em;
+	font-size: 1.0em;
+	}
+}
+
+.headcenter{
+	height: 1px;
+    background: #DDD;
+    border-bottom: #FFF solid 1px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+h2{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1em;
+	font-weight:300;
+	text-align: center;
+	color: #282828;
+	background: white;
+	position: absolute;
+    top: -25px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#examplecontainer{
+	position: relative;
+	padding: 2em;
+}
+
+.example{ 
+	float: left;
+	width: 33%;
+	max-width: 25em;
+	height: 12em;
+	position: relative;
+	background-color: lightgrey;
+	border: 1em solid white; 
+ }
+
+.decription{
+	position: absolute;	
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1em;
+	font-weight:300;
+	text-align: center;
+	color: #282828;
+	bottom: -2px;
+	left: 0;
+	width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	.example{ 
+	float: none;
+	width: 100%;
+	max-width: 30em;
+	height: 15em;
+	}
+
+	.decription{
+	position: absolute;	
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 0.8em;
+	}
+}
+
+footer{
+	background-color:#d89d8f;
+	position: relative;
+	max-width: 100%;
+	height: 4.5em;
+}
+.copyright{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 0.8em;
+	color: white;
+	font-weight:200;
+	text-align: center;
+	padding: 0.4em;
+}
+.sns-icon{
+	position: absolute;
+    right: 40%;
+}
+.icon{
+	filter: invert(100%) brightness(150%);
+	padding: 0.2em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
